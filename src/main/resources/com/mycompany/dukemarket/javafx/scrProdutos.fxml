@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="610.0" prefWidth="825.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.mycompany.dukemarket.javafx.controller.ScrProdutosController">
+   <children>
+      <AnchorPane layoutX="15.0" layoutY="29.0" prefHeight="324.0" prefWidth="681.0">
+         <children>
+            <TableView layoutY="-7.0" prefHeight="324.0" prefWidth="782.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="ID" />
+                  <TableColumn prefWidth="75.0" text="Cod Barras" />
+                  <TableColumn prefWidth="237.0" text="Descrição" />
+                  <TableColumn minWidth="3.0" prefWidth="117.0" text="Qtd" />
+                  <TableColumn prefWidth="75.0" text="\$ Compra" />
+                  <TableColumn prefWidth="94.0" text="\$ Venda" />
+                  <TableColumn prefWidth="108.0" text="Data Cadastro" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="504.0" layoutY="355.0" prefHeight="253.0" prefWidth="288.0">
+         <children>
+            <Button layoutX="48.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="176.0" text="Novo" />
+            <Button layoutX="48.0" layoutY="132.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="176.0" text="Salvar" />
+            <Button layoutX="48.0" layoutY="171.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="176.0" text="Excluir" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="358.0" prefHeight="236.0" prefWidth="486.0">
+         <children>
+            <TextField layoutX="62.0" layoutY="17.0" prefHeight="25.0" prefWidth="78.0" />
+            <Label layoutX="25.0" layoutY="21.0" prefHeight="17.0" prefWidth="44.0" text="ID" />
+            <Label layoutX="187.0" layoutY="21.0" prefHeight="17.0" prefWidth="69.0" text="Cod Barras" />
+            <TextField layoutX="270.0" layoutY="17.0" prefHeight="25.0" prefWidth="126.0" />
+            <Label layoutX="13.0" layoutY="60.0" prefHeight="17.0" prefWidth="69.0" text="Descrição" />
+            <TextField layoutX="74.0" layoutY="56.0" prefHeight="25.0" prefWidth="312.0" />
+            <Label layoutX="13.0" layoutY="95.0" prefHeight="17.0" prefWidth="69.0" text="Qtd" />
+            <Label layoutX="203.0" layoutY="95.0" prefHeight="17.0" prefWidth="84.0" text="Valor Compra" />
+            <TextField layoutX="62.0" layoutY="91.0" prefHeight="25.0" prefWidth="78.0" />
+            <TextField layoutX="287.0" layoutY="91.0" prefHeight="25.0" prefWidth="93.0" />
+            <Label layoutX="23.0" layoutY="150.0" prefHeight="17.0" prefWidth="93.0" text="Valor Venda" />
+            <TextField layoutX="121.0" layoutY="146.0" prefHeight="25.0" prefWidth="187.0" />
+            <Label layoutX="20.0" layoutY="186.0" prefHeight="17.0" prefWidth="84.0" text="Data Cadastro" />
+            <DatePicker layoutX="122.0" layoutY="182.0" prefHeight="25.0" prefWidth="187.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
